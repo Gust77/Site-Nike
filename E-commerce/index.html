@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Font-->
+        <link href="https: //fonts.googleapis.com/css2? family= Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 & family= Plus+Jacarta+Sans & display=swap" rel= "folha de estilo">
+
+        <!--Titulo-->
+        <title>Nike Store</title>
+
+        <!--Estilo personalizado-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--iCON ABA-->
+        <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon">
+    </head>
+    <body>
+        
+        <nav id="nav"><!--Inicio navbar-->
+            <div class="navbarTop">
+
+                <!--Logo-->
+                <div class="navItem">
+                    <a href="index.html">
+                        <img src="imagens/sneakers.png">
+                    </a>
+                </div>
+
+                <!--Área de busca-->
+                <div class="navitem">
+                    <div class="search">
+                        <input type="text" placeholder="Pesquisar..." class="searchInput">
+                        <img src="imagens/search.png" class="searchIcon">
+                    </div>
+                </div>
+
+
+                <!--Oferta-->
+                <div class="navItem">
+                    <span class="ofertaLimitada">OFERTA LIMITADA</span>
+                </div>
+            </div>
+
+
+            <!--Opções menu-->
+            <div class="navbarBotton">
+                <h3 class="itemMenu" onclick="quadroUm()">AIR FORCE</h3>
+                <h3 class="itemMenu">JORDAN</h3>
+                <h3 class="itemMenu">BLAZER</h3>
+                <h3 class="itemMenu" >CRATER</h3>
+                <h3 class="itemMenu">HIPPIE</h3>
+            </div>
+        </nav><!--final navbar-->
+        
+        <section class="slider"><!--inicio slider-->
+            <div class="sliderWrapper">
+                <div class="sliderItem">
+                    <img src="imagens/air.png" class="sliderImg">
+                    <div class="slideBg"></div>
+                    <h1 class="sliderTitle">AIR FORCE<br>NEW SEASON</h1>
+                    <h2 class="sliderPreço">R$119</h2>
+                    <a href="#produto">
+                        <button class="comprarBtn">ADQUIRIR</button>
+                    </a>
+                </div>
+
+                <div class="sliderItem">
+                    <img src="imagens/jordan.png" class="sliderImg">
+                    <div class="slideBg"></div>
+                    <h1 class="sliderTitle">JORDAN<br>NEW SEASON</h1>
+                    <h2 class="sliderPreço">R$149</h2>
+                    <a href="#produto">
+                        <button class="comprarBtn">ADQUIRIR</button>
+                    </a>
+                </div>
+
+                <div class="sliderItem">
+                    <img src="imagens/blazer.png" class="sliderImg">
+                    <div class="slideBg"></div>
+                    <h1 class="sliderTitle">BLAZER<br>OLD SCHOOL</h1>
+                    <h2 class="sliderPreço">R$159</h2>
+                    <a href="#produto">
+                        <button class="comprarBtn">ADQUIRIR</button>
+                    </a>
+                </div>
+
+                <div class="sliderItem">
+                    <img src="imagens/crater.png" class="sliderImg">
+                    <div class="slideBg"></div>
+                    <h1 class="sliderTitle">CRATER<br>NEW SEASON</h1>
+                    <h2 class="sliderPreço">R$250</h2>
+                    <a href="#produto">
+                        <button class="comprarBtn">ADQUIRIR</button>
+                    </a>
+                </div>
+
+                <div class="sliderItem">
+                    <img src="imagens/hippie.png" class="sliderImg">
+                    <div class="slideBg"></div>
+                    <h1 class="sliderTitle">HIPPIE<br>OLD SCHOOL</h1>
+                    <h2 class="sliderPreço">R$89</h2>
+                    <span class="aviso">Cor<br>Indispoível</span>
+                    <a href="#produto">
+                        <button class="comprarBtn">ADQUIRIR</button>
+                    </a>
+                </div>
+            </div>
+        </section><!--final slider-->
+
+        <section class="serviços"><!--inicio serviços-->
+            <div class="serviço">
+                <img src="imagens/shipping.png" class="serviçosImg">
+                <span class="serviçosTitle">ENTREGA GRÁTIS</span>
+                <span class="serviçosText">Etrega grátis para todo Brasil.</span>
+            </div>
+
+            <div class="serviço">
+                <img src="imagens/gift.png" class="serviçosImg">
+                <span class="serviçosTitle">BÔNUS</span>
+                <span class="serviçosText">A cada R$350 em compras cocorre ao sorteio trimestral de R$100mil!</span>
+            </div>
+
+            <div class="serviço">
+                <img src="imagens/return.png" class="serviçosImg">
+                <span class="serviçosTitle">DEVOLUÇÃO</span>
+                <span class="serviçosText">Compras podem ser devolvidas em até 5 dias após o recebimennto do produto.</span>
+            </div>
+
+            <div class="serviço contato">
+                <img src="imagens/contact.png" class="serviçosImg">
+                <span class="serviçosTitle">FALE CONOSCO</span>
+                <span class="serviçosText">Toque aqui para nos contatar via chat.</span>
+            </div>
+        </section><!--final serviços-->
+
+        <section class="produto" id="produto"><!--seção de design-->
+            <img src="imagens/airblack.webp" alt="" class="imagemProduto">
+
+            <div class="detalhesProduto"><!--imagem e descrição-->
+                <h1 class="productTitle">AIR FORCE</h1>
+                <h2 class="productPrice">R$ 199</h2>
+                <p class="descricao">
+                    Nike Air Force é uma das grandes inovações da marca para que o amortecimento seja ainda mais eficiente e você tenha o máximo de desempenho em suas atividades e exercícios físicos.
+                </p>
+
+                <div class="colors"><!--cores-->
+                    <div class="colorCoinntainner"></div>
+                    <div class="colorCoinntainner"></div>
+                </div><!--cores-->
+    
+                <div class="tamahos"><!--tamahos-->
+                    <div class="tamanho">38</div>
+                    <div class="tamanho">39</div>
+                    <div class="tamanho">40</div>
+                </div><!--tamanhos-->
+                
+                <button class="botaoProduto">
+                    ADQUIRIR!
+                </button>
+
+            </div><!--imagem e descrição-->
+
+            <section class="pagamento"><!--modal-->
+                <h1 class="payTitle">Informações pessoais</h1>
+                <label for="">Name completo</label>
+                <input type="text" placeholder="Ex: Gustavo de Faria" class="payInput">
+    
+                <label for="">Número de telefone</label>
+                <input type="text" placeholder="Ex: (41) 984785723" class="payInput">
+    
+                <label for="">Endereço</label>
+                <input type="text" placeholder="Ex: Rua Professor Mario Cantálico Flores" class="payInput">
+                
+                <h1>Informações do cartão</h1>
+                <div class="carIcons">
+                    <img src="/imagens/visa.png" alt="" class="cardIcon">
+                    <img src="/imagens/master.png" alt="" class="cardIcon">
+                </div>
+                <input type="password" class="payInput" placeholder="Card Number">
+                <div class="cardInfo">
+                    <input type="text" placeholder="mês" class="payInput sm">
+                    <input type="text" placeholder="ano" class="payInput sm">
+                    <input type="text" placeholder= "cvv" class="payInput sm">
+                </div>
+
+                <button class="payButton">Confimar!!</button>
+                <span class="fechar">X</span>
+            </section><!--modal-->
+        </section><!--seção de design-->
+        
+        <section class="galeria"><!--os mais vendidos-->
+            <div class="title">
+                <h1 class="prodTitle">OUTROS MODELOS</h1>
+            </div>
+            <!--Air Forse-->
+            <div class="sliderWrapperProd">
+                <div class="prodItem">
+                    <img src="imagens/air2.webp" class="prodImg">
+                    <span class="legenda">
+                        Nike Air Force 1 '07 LX
+                    </span>
+
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/air3.webp" class="prodImg">
+                        <span class="legenda">
+                            Nike Air Force 1 Experimental
+                        </span>
+
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/air4.webp" class="prodImg">
+                        <span class="legenda">
+                            Nike Air Force 1 '07 LX RETRO
+                        </span>
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/air5.webp" class="prodImg">
+                        <span class="legenda">
+                            Nike Air Force 1 '07 LV8
+                        </span>
+                </div>
+
+
+
+                <!--Jordan-->
+                <div class="prodItem">
+                    <img src="imagens/jordan2.webp" class="prodImg">
+                    <span class="legenda">
+                        Jordan Legacy 312 Low
+                    </span>
+
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/jordan3.webp" class="prodImg">
+                        <span class="legenda">
+                            Jordan One Take 3
+                        </span>
+
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/jordan4.webp" class="prodImg">
+                        <span class="legenda">
+                            Jordan Delta 2
+                        </span>
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/jordan5.webp" class="prodImg">
+                        <span class="legenda">
+                            Jordan Why Not .5
+                        </span>
+                </div>
+
+                <!--Blazer-->
+                <div class="prodItem">
+                    <img src="imagens/blazer2.webp" class="prodImg">
+                    <span class="legenda">
+                        Nike SB Zoom Blazer Mid Premium
+                    </span>
+
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/blazer3.webp" class="prodImg">
+                        <span class="legenda">
+                            Nike Blazer Low Platform Next Nature
+                        </span>
+
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/blazer4.webp" class="prodImg">
+                        <span class="legenda">
+                            Nike Sportswear Blazer Mid '77 LX
+                        </span>
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/blazer5.webp" class="prodImg">
+                        <span class="legenda">
+                            Nike SB Blazer Court
+                        </span>
+                </div>
+
+                <!--Crater-->
+                <div class="prodItem">
+                    <img src="imagens/crater2.webp" class="prodImg">
+                    <span class="legenda">
+                        Nike Air Force 1 Crater
+                    </span>
+
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/crater3.webp" class="prodImg">
+                        <span class="legenda">
+                            Nike Waffle One Crater
+                        </span>
+
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/crater4.jpg" class="prodImg">
+                        <span class="legenda">
+                            Nike Crater Remixa
+                        </span>
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/crater5.webp" class="prodImg">
+                        <span class="legenda">
+                            Nike Crater Impact
+                        </span>
+                </div>
+
+                <!--Hippie-->
+                <div class="prodItem">
+                    <img src="imagens/hippie2.webp" class="prodImg">
+                    <span class="legenda">
+                        Nike Space Hippie 04
+                    </span>
+
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/hippie3.webp" class="prodImg">
+                        <span class="legenda">
+                            NIKE SPACE HIPPIE 03
+                        </span>
+
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/hippie4.webp" class="prodImg">
+                        <span class="legenda">
+                            NIKE NEO HIPPIE 04
+                        </span>
+                </div>
+
+                <div class="prodItem">
+                    <img src="imagens/hippie5.webp" class="prodImg">
+                        <span class="legenda">
+                            Nike Space Hippie Retro 04
+                        </span>
+                </div>
+
+            </div>
+        
+        </section><!--os mais vendidos-->
+
+        <section class="destaque"><!--destaques-->
+                <div class="itemDestaque">
+                    <h1 class="destaqueTitulo">Just do it!</h1>
+                    <img src="imagens/doit.webp" class="destaqueImg">
+                </div>
+
+                <div class="itemDestaque">
+                    <img src="imagens/live.webp" class="destaqueImg">
+                    <h1 class="destaqueTitulo">Live the moment!</h1>
+                </div>
+
+                <div class="itemDestaque">
+                    <h1 class="destaqueTitulo">Be yourself!</h1>
+                    <img src="imagens/beyou.webp" class="destaqueImg">
+                </div>
+        </section><!--destaques-->
+
+        <section class="newSeason"><!--New season-->
+            <div class="newSeasoItem">
+                <img src="imagens/tenis1dest.jpg" class="nsImg">
+            </div>
+            <div class="newSeasoItem">
+                <h3 class="nsTitleSm">NOVAS COLEÇÕES</h3>
+                <h1 class="nsTitle">O esporte segue em frente</h1>
+                <h1 class="nsTitle">Nike</h1>
+                <a href="#nav">
+                    <button class="nsButton">Escolha seu estilo</button>
+                </a>
+            </div>
+            <div class="newSeasoItem">
+                <img src="imagens/tenis2dest.jpg" class="nsImg">
+            </div>
+        </section><!--New season-->
+
+        <footer><!--footer-->
+            <div class="footerLeft">
+                <div class="footerMenu">
+                    <h1 class="footerMenuTitle">Sobre nós</h1>
+                    <ul class="fMenuList">
+                        <li class="fListaItem">Empresa</li>
+                        <li class="fListaItem">Contato</li>
+                        <li class="fListaItem">Lojas</li>
+                        <li class="fListaItem">Trabalhe conosco</li>
+                        <li class="fListaItem">Publicidade</li>
+                    </ul>
+                </div>
+
+                <div class="footerMenu">
+                    <h1 class="footerMenuTitle">Links</h1>
+                    <ul class="fMenuList">
+                        <li class="fListaItem">Suporte</li>
+                        <li class="fListaItem">Reembolso</li>
+                        <li class="fListaItem">SAC</li>
+                        <li class="fListaItem">Feedback</li>
+                        <li class="fListaItem">Minha história no esporte</li>
+                    </ul>
+                </div>
+
+                <div class="footerMenu">
+                    <h1 class="footerMenuTitle">Produtos</h1>
+                    <ul class="fMenuList">
+                        <li class="fListaItem">Air Force</li>
+                        <li class="fListaItem">Air Jordan</li>
+                        <li class="fListaItem">Blazer</li>
+                        <li class="fListaItem">Crater</li>
+                        <li class="fListaItem">Hippie</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footerRight">
+               <div class="footerRightMenu">
+                   <h1 class="fMenuTitle">Fique por dentro de tudo</h1>
+                   <div class="fMail">
+                       <input type="text" placeholder="seuemail@email.com" class="fInput">
+                       <button class="fButton">Enviar!</button>
+                   </div>
+               </div>
+
+               <div class="footerRightMenu">
+                    <h1 class="fMenuTitle">Nos siga nas redes sociais</h1>
+                    <div class="fMail">
+                        <spaan class="fIcons">
+                            <img src="imagens/facebook.png" class="fIcon">
+                            <img src="imagens//twitter.png" class="fIcon">
+                            <img src="imagens/instagram.png" class="fIcon">
+                            <img src="imagens/whatsapp.png" class="fIcon">
+                        </spaan>
+                    </div>
+                </div>
+
+                <div class="footerRightMenu">
+                    <span class="copyright">Todos os direitos reservados a @Gustavo e @Lama Dev.</span>
+                </div>
+            </div>
+        </footer><!--footer-->
+    <script src="js/script.js"></script>
+    </body>
+</html>
